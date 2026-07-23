@@ -6,7 +6,7 @@ import os
 # =============================
 # CONFIG
 # =============================
-API_BASE = os.getenv("API_BASE") or "http://127.0.0.1:8000"
+API_BASE =  "https://movie-recommendation-system-tf3o.onrender.com"
 TMDB_IMG = "https://image.tmdb.org/t/p/w500"
 
 st.set_page_config(page_title="Movie Recommender", page_icon="🎬", layout="wide")
